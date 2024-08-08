@@ -1,0 +1,61 @@
+<section>
+    <div id="contacto" class= "jf_section_1 container body_container">
+     <form action="py/conector.py" name = "" method="POST">
+           <h3>Contáctese con nosotros</h3>
+           <p class="intro">Agradecemos el interés por contactarse con nosotros, completando el siguiente formulario</p>
+           <hr>
+           <div class="row">
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                       
+                 <input type="text" name="nombre" placeholder="Nombre y Apellido  (*)" required>
+     
+                 <input type="text" name="empresa" placeholder="Empresa">
+     
+                 <input type="text" name="cargo" placeholder="Cargo" >
+     
+                 <input list="rubros" name="rubro" placeholder="Rubro de la Empresa">
+                       <datalist id="rubros">
+                           <option value="Agricultura">
+                           <option value="Alimentos y Bebidas">
+                           <option value="Automotriz">
+                           <option value="Bienes Raíces">
+                           <option value="Comercio">
+                           <option value="Construcción">
+                           <option value="Educación">
+                           <option value="Energía">
+                           <option value="Entretenimiento">
+                           <option value="Otros">
+                       </datalist>
+                 
+                 <input type="text" name="email" placeholder="Email (*)" required>
+                 
+                 <input type="text" name="telefono" placeholder="Teléfono de contacto (*)" required>
+                                 
+                 <textarea name="mensaje" placeholder="Escriba aquí su mensaje (*)" required></textarea>
+                 <p></p>
+                 <input class= "enviar" type="submit" value="Enviar" id="boton">
+                   
+                   <br>
+                   <br>
+                   <p>(*) Campos obligatorios</p>
+             
+               </div>
+               <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                   <br>		
+                   <p class="info"><strong>También puede ubicarnos</strong> </p>
+                   
+                       <p class="info">Dirección: Jean Jaures 747 Piso 2, CABA</p>
+                       <p class="info">Teléfono: 011 4321-1234 - lineas rotativas</p>
+                       <p class="info">Email: info@jhfrinksrl.com.ar</p>
+                       <div class="map-responsive">
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.104396642153!2d-58.41039222494369!3d-34.601521557381055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8db96bffff%3A0x9d08bab1f009e615!2sJean%20Jaures%20747%2C%20C1189%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715021916126!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     </div>
+                       <a href="https://api.whatsapp.com/send?phone=+54118583511" class="btn-wsp" target="_blank">
+                           <i class="fa fa-whatsapp icono"></i>
+                       </a>
+               </div>  
+           </div> 
+       </form>
+       <br>
+    </div>
+</section>
