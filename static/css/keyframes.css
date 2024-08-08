@@ -1,0 +1,174 @@
+@keyframes jf_keyframes_aparecer_de_arriba{
+  from {
+    opacity: 0;
+    top: -150px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+@keyframes jf_keyframes_aparecer_de_abajo  {
+  from {
+    opacity: 0;
+    top: 150px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+@media (min-width: 2560px){
+  .mi-navbar img{
+    width: 3vw;
+  }
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px;
+}
+
+.mi-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mi-navbar img {
+  width: 3vw;
+}
+
+
+@media (max-width: 768px) {
+  .mi-navbar {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #ecommerce , #diseno , #brandig , #contacto {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #ecommerce, #diseno, #brandig ,  #contacto {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #marketing .overlay-text , #moviles .overlay-text {
+      font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  #marketing .overlay-text ,  #moviles .overlay-text {
+      font-size: 18px;
+  }
+}
+
+
+@media screen and (min-width: 1025px) {
+  #marketing .overlay-text ,  #moviles .overlay-text {
+      font-size: 22px;
+  }
+
+ 
+@media only screen and (max-width: 600px) {
+ 
+  #serv {
+    margin-bottom: 20px; 
+  }
+
+  #marketing {
+    margin-top: 20px; 
+  }
+  
+  #moviles{
+    margin-top: 20px; 
+  }
+
+  #ecommerce{
+    margin-top: 20px; 
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+  .btn-wsp{
+      width:63px;
+      height:63px;
+      line-height: 66px;
+}
+}
+
+
+
+@media (min-width: 768px) {
+  #registro form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #registro label, 
+  #registro input {
+    width: 48%; 
+  }
+}
+
+
+@media (min-width: 1024px) {
+  #registro label, 
+  #registro input {
+    width: 30%; 
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  .containerform {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .containerform {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .containerform {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/* CSS */
+@media (max-width: 768px) {
+  .row-fila .col-lg-4, .row-fila .col-md-4, .row-fila .col-sm-4 {
+      /* Cambiar a ocupar el 100% del ancho y ajustar márgenes si es necesario */
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 30px; /* Ajustar según sea necesario para evitar superposiciones */
+  }
+}
